@@ -3,5 +3,5 @@ python:
   - "3.4"
 install: ""
 before_install:
-    - pip install pytest pytest-cov
+    - pip install --upgrade pytest pytest-cov
 script: pytest tests\lib_tests.py
