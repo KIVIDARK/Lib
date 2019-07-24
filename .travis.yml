@@ -5,4 +5,4 @@ install: ""
 before_install:
     - pip install --upgrade pip
     - pip install --upgrade pytest pytest-cov
-script: pytest tests\lib_tests.py
+script: pytest tests/lib_tests.py
